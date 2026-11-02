@@ -1,0 +1,38 @@
+{
+  "name": "subtitle-converter",
+  "version": "1.0.0",
+  "description": "Convert subtitles between SRT, VTT, SBV and text, and read ASS and SSA, in the browser or Node with no network.",
+  "type": "module",
+  "main": "./subconv.js",
+  "exports": {
+    ".": "./subconv.js",
+    "./srt.js": "./srt.js"
+  },
+  "files": [
+    "subconv.js",
+    "srt.js"
+  ],
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "keywords": [
+    "srt",
+    "vtt",
+    "subtitles",
+    "converter",
+    "sbv",
+    "ass",
+    "webvtt",
+    "captions"
+  ],
+  "homepage": "https://burncaps.app/subtitle-converter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOrdaN-Labs005/subtitle-converter.git"
+  },
+  "author": "Jordan Labs Ltd (https://burncaps.app)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
